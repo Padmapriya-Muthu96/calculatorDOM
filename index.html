@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        #calculator{
+           border: 2px solid black;
+           padding: 20px 20px;
+           width: 25%;
+           background-color: darkorchid;
+           text-align: center;
+           justify-content: space-between;
+           justify-content: center;
+           margin: auto;
+          
+        }
+        #expression{
+            width: 100%;
+            height: 60px;
+            
+        }
+      #mc, #seven, #eight,#nine,#four,#five,#six,#one,#two,#three,#addition,#substract,#multiple,#divide,#decimal,#percentage,#zero,#equal,#delete,#clear {
+font-size: 30px;
+padding: 5px 5px;
+width: 55px;
+height: 55px;
+text-align: center;
+background-color: cadetblue;
+        }
+        #expression{
+            font-size: 25px;
+            border: solid rgb(165, 57, 75);
+        }
+     body{
+        background-image: url("https://cdn2.f-cdn.com/contestentries/190907/65270/55214201183cf_thumb900.jpg");
+     }
+        
+    </style>
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="expression">
+<br><br>
+
+    <button id="delete">AC</button>
+    <button id="clear">C</button>
+    <button id="percentage">%</button>
+    <button id="mc">√</button>
+<br><br>
+<button id="seven">7</button>
+<button id="eight">8</button>
+<button id="nine" >9</button>
+<button id="divide">/</button>
+<br><br>
+<button id="four">4</button>
+<button id="five">5</button>
+<button id="six">6</button>
+<button id="multiple">*</button>
+<br><br>
+<button id="one">1</button>
+<button id="two">2</button>
+<button id="three">3</button>
+<button id="substract">-</button>
+<br><br>
+<button id="zero">0</button>
+<button id="decimal">.</button>
+<button id="addition">+</button>
+<button id="equal">=</button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
